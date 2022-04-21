@@ -542,7 +542,7 @@ class BettingResourcesTest(unittest.TestCase):
             update_orders.get("instructionReports")
         )
 
-        for order in update_orders.get("instructionReports"):
+        for _ in update_orders.get("instructionReports"):
             pass
 
     def test_replace_orders(self):
